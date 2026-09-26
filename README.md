@@ -2,10 +2,8 @@
 
 A modular Inventory Management System (IMS) that digitizes stock operations — replacing manual registers, Excel sheets, and scattered tracking with a centralized, real-time dashboard.
 
-Built in 8 hours for [Hackathon Name] by Team Cratewise.
+Built in 8 hours for [ odoo X LPU ] by Team Cratewise.
 
-## 🚀 Live Demo
-[Add your deployed link here once live]
 
 ## 🎯 Problem
 Businesses manage inventory manually through registers and spreadsheets, leading to errors, lost stock visibility, and no single source of truth across warehouses. Cratewise solves this with a real-time, centralized dashboard for receipts, deliveries, transfers, and adjustments.
@@ -28,7 +26,7 @@ Businesses manage inventory manually through registers and spreadsheets, leading
 - **Deployment:** [Vercel / Render / etc. — update this]
 
 ## 📸 Screenshots
-[Add 2–3 screenshots of the dashboard, receipt flow, etc.]
+<img width="1470" height="800" alt="Screenshot 2026-09-26 at 4 44 09 PM" src="https://github.com/user-attachments/assets/2d1aef87-290c-4943-b076-95a419c63e97" /> 
 
 ## ⚙️ Running Locally
 
@@ -60,10 +58,10 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 ```
 
 ## 👥 Team
-- [Name] — Frontend & UI/UX
-- [Name] — Backend
-- [Name] — Database & Auth
-- [Name] — Integration & Deployment
+- [Purushottam Tripathi] — Frontend & UI/UX
+- [Vanshika Dhama] — Backend
+- [Khushi Chawla] — Database & Auth
+- [Manashvi] — Integration & Deployment
 
 ## 📌 Future Improvements
 - Barcode/SKU scanning
