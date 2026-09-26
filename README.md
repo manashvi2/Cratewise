@@ -4,6 +4,9 @@ A modular Inventory Management System (IMS) that digitizes stock operations — 
 
 Built in 8 hours for [ odoo X LPU ] by Team Cratewise.
 
+🚀 Live Demo
+(https://lumina-tau-six-70.vercel.app)
+
 
 ## 🎯 Problem
 Businesses manage inventory manually through registers and spreadsheets, leading to errors, lost stock visibility, and no single source of truth across warehouses. Cratewise solves this with a real-time, centralized dashboard for receipts, deliveries, transfers, and adjustments.
