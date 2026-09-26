@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cratewise 📦
 
-## Getting Started
+A modular Inventory Management System (IMS) that digitizes stock operations — replacing manual registers, Excel sheets, and scattered tracking with a centralized, real-time dashboard.
 
-First, run the development server:
+Built in 8 hours for [Hackathon Name] by Team Cratewise.
 
+## 🚀 Live Demo
+[Add your deployed link here once live]
+
+## 🎯 Problem
+Businesses manage inventory manually through registers and spreadsheets, leading to errors, lost stock visibility, and no single source of truth across warehouses. Cratewise solves this with a real-time, centralized dashboard for receipts, deliveries, transfers, and adjustments.
+
+## ✨ Features
+- **Dashboard** — live KPIs: total stock, low/out-of-stock alerts, pending receipts & deliveries, scheduled transfers
+- **Product Management** — create products with SKU, category, unit of measure, initial stock
+- **Receipts** — record incoming stock from suppliers, auto-updates inventory
+- **Delivery Orders** — pick, pack, and validate outgoing stock
+- **Internal Transfers** — move stock between warehouses/locations, fully logged
+- **Stock Adjustments** — reconcile system records with physical counts
+- **Multi-warehouse support** with location-based filtering
+- **Move history / stock ledger** — every change logged for auditability
+- **Authentication** — signup/login with OTP-based password reset
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js / React (v0-generated UI)
+- **Backend:** [Node.js + Express / etc. — update this]
+- **Database:** [PostgreSQL / MongoDB / etc. — update this]
+- **Deployment:** [Vercel / Render / etc. — update this]
+
+## 📸 Screenshots
+[Add 2–3 screenshots of the dashboard, receipt flow, etc.]
+
+## ⚙️ Running Locally
+
+### Prerequisites
+- Node.js installed
+- [Database] running locally or a connection string
+
+### Setup
 ```bash
+# Clone the repo
+git clone https://github.com/manashvi2/Cratewise.git
+cd Cratewise
+
+# Install dependencies
+npm install
+# or if using pnpm
+pnpm install
+
+# Run the development server
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create a `.env` file in the root with:
+```
+DATABASE_URL=your_connection_string
+NEXT_PUBLIC_API_URL=http://localhost:5000
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👥 Team
+- [Name] — Frontend & UI/UX
+- [Name] — Backend
+- [Name] — Database & Auth
+- [Name] — Integration & Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Future Improvements
+- Barcode/SKU scanning
+- Demand forecasting & smart reordering
+- Role-based permissions (Manager vs Warehouse Staff)
